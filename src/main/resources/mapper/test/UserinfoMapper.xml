@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bigsea.sns.dao.mapper.test.UserinfoMapper">
+  <resultMap id="BaseResultMap" type="com.bigsea.sns.model.test.Userinfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="Id" jdbcType="VARCHAR" property="id" />
+    <result column="UserName" jdbcType="VARCHAR" property="username" />
+  </resultMap>
+</mapper>
